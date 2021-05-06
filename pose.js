@@ -282,4 +282,4 @@ function so(){
   au =new Audio('https://diwakarshah.github.io/yoga-master/sound/om.mp3');
   au.play();
 }
-//so();
+so();
