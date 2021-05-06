@@ -30,7 +30,7 @@ poses_name=['Utkata Konasana (goddess)','Tadasana (mountain)','Phalakasana (plan
 
 function setup() {
     let cnv=createCanvas(700, 500);
-    cnv.position(650, 50);
+    cnv.position(670, 70);
 
   video = createCapture(VIDEO);
   video.size(width, height);
