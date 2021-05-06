@@ -42,7 +42,7 @@ function setup() {
 
   // Create a new poseNet method with a single detection
   poseNet = ml5.poseNet(video, modelReady);
-  knnClassifier.load('https://github.com/diwakarshah/yoga-master/myKNN.json',classifierReady);
+  knnClassifier.load('https://diwakarshah.github.io/yoga-master/myKNN.json',classifierReady);
   // This sets up an event that fills the global variable "poses"
   // with an array every time new poses are detected
   poseNet.on('pose', function(results) {
@@ -272,14 +272,14 @@ function speak(m){
 }*/
 function correction(alpha){
   var n=alpha;
-  var path= 'https://github.com/diwakarshah/yoga-master/assets/'+n+'.jpg' 
+  var path= 'https://diwakarshah.github.io/yoga-master/assets/'+n+'.jpg' 
   var s=document.getElementById("x");
   s.innerHTML=`<img src='${path}'>`;
 }
 
 function so(){
   var au;
-  au =new Audio('https://github.com/diwakarshah/yoga-master/sound/om.mp3');
+  au =new Audio('https://diwakarshah.github.io/yoga-master/sound/om.mp3');
   au.play();
 }
 //so();
