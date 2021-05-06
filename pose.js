@@ -282,4 +282,4 @@ function so(){
   au =new Audio('https://drive.google.com/file/d/1Jroyh5hywMybH0M9kGvwHkKSZuy94Fnd/view?usp=sharing');
   au.play();
 }
-so();
+//so();
